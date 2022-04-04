@@ -45,16 +45,8 @@ CACHES = {
     "default": {
         "BACKEND": "django_dynamodb_cache.backend.DjangoCacheBackend",
         "LOCATION": "dynamodb-test",  # default: django-dynamodb-cache
-        "TIMEOUT": 120,  # seconds
-        "KEY_PREFIX": "django_dynamodb_cache",
-        "VERSION": 1,
         "OPTIONS": {
-            "aws_region_name": "ap-northeast-2",
-            "aws_access_key_id": os.environ["AWS_ACCESS_KEY_ID"],
-            "aws_secret_access_key": os.environ["AWS_SECRET_ACCESS_KEY"],
-            "read_capacity_units": 1,
-            "write_capacity_units": 1,
-            "encode": "django_dynamodb_cache.encode.PickleEncode"
+            "aws_region_name": "ap-northeast-2"
         }
     }
 }

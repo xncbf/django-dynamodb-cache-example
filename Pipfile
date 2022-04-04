@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 django = "==3.2"
-django-dynamodb-cache = "*"
+django-dynamodb-cache = "==0.3.0"
 
 [dev-packages]
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0a9160d1f6fd99796966b76361fbe359c6d06367373cab7bcc395723dd4e5612"
+            "sha256": "f9c6e29322bf8da5eab2ffb5b59ad65dbbaf9a7546c7695042e04b2694a8aa33"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -26,19 +26,19 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:44a30268702c78aa355a0044fa7fea5f1e7e7c125ad029196028787eea003c2e",
-                "sha256:c60d2401226c723db809df5c611a850c101b562e0e0790be7631a38b82813038"
+                "sha256:05f4438607e560624caadb073c6c63181eda9bf74f8a9e4581e7b43d641cc683",
+                "sha256:8e7a6d70cefa4e125466e0c467b489649cb72e3632997844bc3c382f948c46e4"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.21.23"
+            "version": "==1.21.32"
         },
         "botocore": {
             "hashes": [
-                "sha256:1c8a77809dd59bf4084780ea1785c38d0ebcacd385d83fb7f6ad81648bbb22dc",
-                "sha256:536d5fcec2dfaf9671b9d361c2479ef435bfb905f73e24f6fbe73bc33ba66dfe"
+                "sha256:4f08eaaa93ee03f14de760031dd060cda3bd6aab734d194a916dbb8f7e5c7085",
+                "sha256:5c2dab84f21b2a8c00bdab2150149be0ca0c8e8dd0b38712fa3562af5cfe53a2"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.24.23"
+            "version": "==1.24.32"
         },
         "django": {
             "hashes": [
@@ -50,11 +50,11 @@
         },
         "django-dynamodb-cache": {
             "hashes": [
-                "sha256:5beb3b5a59e9ae75158712ddb1c5b77f602d2ca2fefa1776e84c2668b23ae13e",
-                "sha256:d4006ddd498ab6bd2c6e840d48b2b2956fbe7a2f8d33c94af6cd929e7f97f481"
+                "sha256:9178fe5c04ac14a86a3aff205ef9af3a2a0b62e0fad8e464e6bf508978e0c958",
+                "sha256:f8019b76542973ada2cc1481be53c575efc2c566d9422fb958802e67dcb927fc"
             ],
             "index": "pypi",
-            "version": "==0.2.0"
+            "version": "==0.3.0"
         },
         "jmespath": {
             "hashes": [
@@ -108,7 +108,7 @@
                 "sha256:44ece4d53fb1706f667c9bd1c648f5469a2ec925fcf3a776667042d645472c14",
                 "sha256:aabaf16477806a5e1dd19aa41f8c2b7950dd3c746362d7e3223dbe6de6ac448e"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4.0'",
             "version": "==1.26.9"
         }
     },
